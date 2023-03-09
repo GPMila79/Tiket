@@ -104,7 +104,7 @@ public class TicketTest {
         Ticket[] actual = manager.findAll("MSK","SPB");
         Assertions.assertArrayEquals(expected, actual);
     }
-    
+
 
 
 }
